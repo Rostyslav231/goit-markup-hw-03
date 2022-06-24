@@ -1,0 +1,416 @@
+:root {
+  --color-hover: #2196f3;
+  --font-family: 'Raleway', sans-serif;
+  --color-color2: #757575;
+  --background-color-color3: #2f303a;
+  --background-color-color4: #f5f4fa;
+  --color-color3: #212121;
+  --color-color4: #fff;
+  --background-color5: #188ce8;
+  --color-color5: rgba(255, 255, 255, 0.6);
+
+}
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--color-color4);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Nav */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.nav-l {
+  display: flex;
+  gap: 50px;
+  margin-right: 93px;
+}
+
+.telmail-ll {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--color-hover);
+}
+
+.logo-ll {
+  color: var(--color-color3);
+}
+
+.list:hover {
+  color: var(--color-hover);
+}
+
+
+.list-font {
+ 
+  line-height: 1.17;
+  list-style-type: none;
+  letter-spacing: 5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  color: var(--color-color3);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list-l {
+  color: var(--color-hover);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list-font-email-tel {
+  line-height: 1.17;
+  color: var(--color-color2);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.list-font-email-tel:hover {
+  color: var(--color-hover);
+}
+
+/* Menu-Section1 */
+
+.section-l {
+  background-color: var(--background-color-color3);
+  padding: 200px 0
+}
+
+.header-l {
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--color-color4);
+}
+
+/* Button */
+
+.button {
+  margin-top: 40px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);  
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: 0;
+  letter-spacing: 0.06em;
+
+  color: var(--color-color4);
+}
+
+.button {
+  background-color: var(--color-hover);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--background-color5);
+  color: var(--color-color4);
+}
+
+/* Header-list */
+
+.section-ll {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style-type: none;
+  
+}
+
+.invisible {
+  font-size: 0px;
+}
+
+.header-list {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.text-list {
+  display: flex;
+  width: 270px;
+  height: 75px;
+  color: var(--color-color2);
+  line-height: 1.7;
+}
+
+/* Header-Photo */
+
+.section-lll {
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.photo-flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.header-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Our Team */
+
+.big-team {
+  display: flex;
+  background-color: var(--background-color-color4);
+
+}
+
+.team-our {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.photo-members {
+  width: 270px;
+  height: 368px;
+}
+
+.members {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.profession {
+  text-align: center;
+  color: var(--color-color2);
+  font-size: 16;
+  line-height: 1.17;
+}
+
+/* Footer */
+
+.big-footer {
+  background-color: var(--background-color-color3);
+}
+
+.footer-l {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  
+}
+
+.contacts-list {
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+.list-cont-l, .list-cont-ll {
+  margin-bottom: 9px;
+}
+
+
+.city {
+  text-decoration: none;
+  color: var(--color-color4);
+  line-height: 1.7;
+  font-style: normal;
+}
+
+.city:hover {
+  color: var(--color-hover);
+}
+
+.email-tel {
+  text-decoration: none;
+  line-height: 1.7;
+  color: var(--color-color5);
+  font-style: normal;
+}
+
+.email-tel:hover {
+  color: var(--color-hover);
+}
+
+.logo-lll {
+  color: var(--color-color4);
+}
+
+.span-logo {
+  margin-left: 38px;
+  margin-bottom: 20px;
+ 
+  
+}
+
+/* Portfolio */
+
+/* Nav */
+
+.logo-ll {
+  color: var(--color-color3);
+}
+
+.list-lll:hover {
+  color: var(--color-hover);
+}
+
+.list-font-ll {
+  line-height: 1.17;
+  list-style-type: none;
+  letter-spacing: 0.02em;
+}
+
+.list-lll {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--color-color3);
+  font-weight: 500;
+}
+
+.list-ll {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--color-hover);
+  font-weight: 500;
+}
+
+.list-font-email-tel-ll {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.17;
+  list-style-type: none;
+  color: var(--color-color2);
+}
+
+.list-font-email-tel-ll:hover {
+  color: var(--color-hover);
+}
+
+/* Main */
+
+.header-ll {
+  visibility: hidden;
+}
+
+.section-p-l {
+  display: flex;
+
+}
+
+.photo-list-p {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.button-menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button-list-ll {
+  border: 0;
+  cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--background-color-color4);
+}
+
+.button-list-ll:hover,
+.button-list-ll:focus {
+  color: var(--color-color4);
+  background-color: var(--color-hover);
+}
+
+/* Information */
+
+.header-list-ll {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--color-color3);
+}
+
+.text-list-ll {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--color-color2);
+}
